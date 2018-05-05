@@ -1,0 +1,35 @@
+{
+  "name": "agilov/docdocsdk",
+  "description": "SDK for docdoc.ru API",
+  "keywords": [
+    "docdoc.ru",
+    "SDK"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/agilov/docdocsdk/issues",
+    "source": "https://github.com/agilov/docdocsdk"
+  },
+  "authors": [
+    {
+      "name": "Roman Agilov",
+      "email": "agilovr@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "codeception/base": "2.3",
+    "codeception/verify": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "agilov\\docdocsdk\\": "src/",
+      "agilov\\docdocsdk\\tests\\": "tests/"
+    }
+  }
+}
